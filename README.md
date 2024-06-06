@@ -1,3 +1,13 @@
+# About this project:
+This application integrates various child components under the parent App.js, forming the skeleton of a basic shopping cart. Here are the components and their functionalities:
+1) Navbar: This component is a basic navigation bar that displays the number of unique items in the cart. This count is independent of the quantity of each item in the cart.
+2) Counters: This component contains the following functionalities:
+  a) Reset Button: When clicked, it resets the quantities of all the items in the cart to Zero.
+  b) + Button: When clicked, it increases the quantity of the corresponding item by 1.
+  c) - Button: When clicked, it decreases the quantity of the corresponding item by 1. If the quantity is zero, it will remain zero regardless of how many times the - button is clicked.
+  d) Delete Button: Deletes the corresponding item from the cart.
+3) Counter: This component is a child of the Counters component. The final web page contains 4 items, with each item represented by a single Counter component.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
